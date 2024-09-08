@@ -15,6 +15,7 @@ function bubbleSort($data) {
 }
 
 $data = array(64, 25, 12, 22, 11);
+// $data = array(11, 12, 22, 25, 64);
 $sortedData = bubbleSort($data);
 
 echo "Data awal: ";
