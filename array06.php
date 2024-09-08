@@ -25,7 +25,7 @@ foreach ($keys as $index => $k) {
 print_r($sorted);
 
 sort ($arrNilai);
-//reset ($arrNilai);
+reset ($arrNilai);
 echo "<b>Array setelah pengurutan sort()</b>";
 echo "<pre>";
 print_r ($arrNilai);
